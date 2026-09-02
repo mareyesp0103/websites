@@ -21,37 +21,39 @@
     <polygon points="322,16 322,66 280,36"/>
   </g>
 
-  <!-- bulb glass: pointed flame / fox-ear silhouette (4 tufts + rounded dome) -->
-  <path d="M208,18
-           C278,10 348,45 366,108
-           C380,156 372,214 348,262
-           C338,286 322,300 306,310
-           L214,310
-           C202,300 186,298 180,292
-           C154,302 128,316 112,314
-           C96,312 92,292 104,268
-           C126,262 150,258 152,254
-           C116,264 78,272 58,264
-           C38,254 34,224 50,198
-           C74,192 98,188 112,184
-           C82,184 46,180 28,168
-           C8,154 12,120 36,100
-           C60,106 84,110 98,112
-           C70,96 42,74 40,58
-           C38,30 62,20 78,18
-           C110,4 165,2 208,18 Z"
-        fill="url(#bulbGrad)" stroke="#ffffff" stroke-width="11" stroke-linejoin="round" stroke-miterlimit="1"/>
+  <!-- bulb glass: 4 elongated pointed tufts + rounded dome -->
+  <path d="M206,16
+           C272,4 334,32 354,86
+           C370,128 364,178 344,214
+           C332,238 316,258 298,272
+           L298,296
+           L204,296
+           C196,292 190,296 184,290
+           L136,326
+           C120,336 108,318 118,294
+           C126,278 138,264 144,254
+           L64,270
+           C44,270 36,248 50,226
+           C62,208 78,196 86,190
+           L22,180
+           C2,172 0,146 16,126
+           C30,108 48,100 58,98
+           L16,58
+           C4,42 12,20 34,12
+           C64,0 100,2 130,10
+           C150,4 180,4 206,16 Z"
+        fill="url(#bulbGrad)" stroke="#ffffff" stroke-width="11" stroke-linejoin="round" stroke-miterlimit="1.2"/>
 
   <!-- glass highlight -->
-  <path d="M296,46 C328,44 352,64 356,94 C359,114 350,130 336,140"
+  <path d="M280,44 C314,42 340,64 344,96 C347,118 338,136 322,148"
         fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round" opacity="0.85"/>
 
   <!-- socket / screw base -->
-  <rect x="248" y="300" width="108" height="20" rx="4" fill="#9aa0aa"/>
+  <rect x="246" y="296" width="90" height="20" rx="4" fill="#9aa0aa"/>
   <g fill="none" stroke="#7c828c" stroke-width="15" stroke-linecap="round">
-    <line x1="256" y1="338" x2="348" y2="338"/>
-    <line x1="254" y1="360" x2="346" y2="360"/>
-    <line x1="254" y1="382" x2="344" y2="382"/>
+    <line x1="252" y1="334" x2="330" y2="334"/>
+    <line x1="250" y1="356" x2="328" y2="356"/>
+    <line x1="250" y1="378" x2="326" y2="378"/>
   </g>
 
   <!-- wordmark -->
