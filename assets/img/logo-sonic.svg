@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 460">
+  <defs>
+    <linearGradient id="bulbGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4d6fd6"/>
+      <stop offset="55%" stop-color="#2f4fb0"/>
+      <stop offset="100%" stop-color="#233c92"/>
+    </linearGradient>
+    <linearGradient id="bannerGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5b9ee0"/>
+      <stop offset="100%" stop-color="#3f7fca"/>
+    </linearGradient>
+  </defs>
+
+  <!-- banner -->
+  <polygon points="308,18 1024,8 1000,392 280,412" fill="url(#bannerGrad)"/>
+
+  <!-- spark rays -->
+  <g fill="#ffffff" stroke="#2f4fb0" stroke-width="4" stroke-linejoin="round">
+    <polygon points="258,14 292,58 240,42"/>
+    <polygon points="292,6 306,56 262,32"/>
+    <polygon points="322,16 322,66 280,36"/>
+  </g>
+
+  <!-- bulb glass: pointed flame / fox-ear silhouette (4 tufts + rounded dome) -->
+  <path d="M208,18
+           C278,10 348,45 366,108
+           C380,156 372,214 348,262
+           C338,286 322,300 306,310
+           L214,310
+           C202,300 186,298 180,292
+           C154,302 128,316 112,314
+           C96,312 92,292 104,268
+           C126,262 150,258 152,254
+           C116,264 78,272 58,264
+           C38,254 34,224 50,198
+           C74,192 98,188 112,184
+           C82,184 46,180 28,168
+           C8,154 12,120 36,100
+           C60,106 84,110 98,112
+           C70,96 42,74 40,58
+           C38,30 62,20 78,18
+           C110,4 165,2 208,18 Z"
+        fill="url(#bulbGrad)" stroke="#ffffff" stroke-width="11" stroke-linejoin="round" stroke-miterlimit="1"/>
+
+  <!-- glass highlight -->
+  <path d="M296,46 C328,44 352,64 356,94 C359,114 350,130 336,140"
+        fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- socket / screw base -->
+  <rect x="248" y="300" width="108" height="20" rx="4" fill="#9aa0aa"/>
+  <g fill="none" stroke="#7c828c" stroke-width="15" stroke-linecap="round">
+    <line x1="256" y1="338" x2="348" y2="338"/>
+    <line x1="254" y1="360" x2="346" y2="360"/>
+    <line x1="254" y1="382" x2="344" y2="382"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="426" y="230" font-family="'Poppins','DM Sans',sans-serif" font-weight="800"
+        font-size="148" fill="#ffffff" letter-spacing="1">SONIC</text>
+  <text x="434" y="300" font-family="'Poppins','DM Sans',sans-serif" font-weight="500"
+        font-size="58" fill="#ffffff" letter-spacing="9">PUBLICIDAD</text>
+
+  <!-- tagline -->
+  <text x="1010" y="446" text-anchor="end" font-family="'Poppins','DM Sans',sans-serif" font-weight="600"
+        font-size="28" fill="#4d8ad6" letter-spacing="1.5">SPEED &amp; INNOVATION</text>
+</svg>
