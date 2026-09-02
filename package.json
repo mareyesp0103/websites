@@ -1,0 +1,13 @@
+{
+  "name": "sonic-publicidad-web",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Sitio web corporativo de Sonic Publicidad (OOH / DOOH Ecuador).",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
