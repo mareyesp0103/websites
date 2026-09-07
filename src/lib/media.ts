@@ -1,4 +1,5 @@
 import mediaManifest from "@/data/media.json";
+import { asset } from "@/lib/paths";
 
 interface Variant {
   w: number;
@@ -32,8 +33,8 @@ export function media(slug: string): ResolvedMedia | null {
   const variants = [...entry.sizes].sort((a, b) => a.w - b.w);
   const largest = variants[variants.length - 1];
   return {
-    src: `/media/${largest.file}`,
-    srcSet: variants.map((v) => `/media/${v.file} ${v.w}w`).join(", "),
+    src: asset(`/media/${largest.file}`),
+    srcSet: variants.map((v) => `${asset(`/media/${v.file}`)} ${v.w}w`).join(", "),
     width: largest.w,
     height: largest.h,
     aspect: largest.w / largest.h,

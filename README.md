@@ -14,6 +14,22 @@ npm run build        # exportación estática en out/
 npm run serve        # sirve out/ en http://localhost:4321
 ```
 
+## Vista previa
+
+El workflow `.github/workflows/preview.yml` publica el sitio en GitHub Pages en
+cada push a la rama de trabajo. Para activarlo, una sola vez:
+
+**Settings → Pages → Build and deployment → Source: "GitHub Actions"**
+
+La vista previa queda en `https://<usuario>.github.io/<repositorio>/`. Como se
+sirve bajo un subdirectorio, el build usa `NEXT_PUBLIC_BASE_PATH` para
+prefijar rutas y assets, y publica con `noindex` para no competir con el
+dominio definitivo ni exponer contenido aún sin validar.
+
+En el dominio final no hace falta ninguna variable: sin `NEXT_PUBLIC_BASE_PATH`
+el sitio se compila para servirse en la raíz, con `robots.txt` e `index, follow`
+normales.
+
 ---
 
 ## Contenido y veracidad

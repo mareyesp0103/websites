@@ -7,6 +7,7 @@ import { BrandIntro } from "@/components/brand/BrandIntro";
 import { BrandSprite } from "@/components/brand/SonicLogo";
 import { WhatsAppFab } from "@/components/ui/WhatsAppFab";
 import { site, contact } from "@/data/site";
+import { asset, BASE_PATH } from "@/lib/paths";
 
 /**
  * Outfit — geométrica y de terminaciones circulares, es la familia
@@ -61,18 +62,22 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: "Sonic Publicidad — Activamos marcas en movimiento",
     description: site.description,
-    images: [{ url: "/media/bg-velocidad-1600.webp", width: 1600, height: 897, alt: "Sonic Publicidad" }],
+    images: [{ url: asset("/media/bg-velocidad-1600.webp"), width: 1600, height: 897, alt: "Sonic Publicidad" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sonic Publicidad — Activamos marcas en movimiento",
     description: site.description,
-    images: ["/media/bg-velocidad-1600.webp"],
+    images: [asset("/media/bg-velocidad-1600.webp")],
   },
-  robots: { index: true, follow: true },
+  // La vista previa se sirve bajo un subdirectorio: no debe indexarse para no
+  // competir con el sitio definitivo ni exponer contenido sin validar.
+  robots: BASE_PATH
+    ? { index: false, follow: false }
+    : { index: true, follow: true },
   icons: {
-    icon: [{ url: "/brand/sonic-bulb.svg", type: "image/svg+xml" }],
-    apple: "/brand/sonic-bulb.svg",
+    icon: [{ url: asset("/brand/sonic-bulb.svg"), type: "image/svg+xml" }],
+    apple: asset("/brand/sonic-bulb.svg"),
   },
 };
 

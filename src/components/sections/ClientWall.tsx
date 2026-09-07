@@ -1,4 +1,5 @@
 import { clients } from "@/data/clients";
+import { asset } from "@/lib/paths";
 import { Reveal } from "@/components/ui/Reveal";
 import { Section } from "@/components/ui/Section";
 
@@ -23,7 +24,7 @@ export function ClientWall() {
                 retícula en pantallas estrechas.
               */}
               <img
-                src={`/brand/clients/${c.file}`}
+                src={asset(`/brand/clients/${c.file}`)}
                 alt={c.name}
                 loading="lazy"
                 decoding="async"
