@@ -1,0 +1,1538 @@
+{
+ "metro-estacion": {
+  "w": 930,
+  "h": 523,
+  "sizes": [
+   {
+    "w": 930,
+    "h": 523,
+    "file": "metro-estacion-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 506,
+    "file": "metro-estacion-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 270,
+    "file": "metro-estacion-480.webp"
+   }
+  ]
+ },
+ "metro-monitores-digitales": {
+  "w": 1431,
+  "h": 953,
+  "sizes": [
+   {
+    "w": 1431,
+    "h": 953,
+    "file": "metro-monitores-digitales-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 599,
+    "file": "metro-monitores-digitales-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 320,
+    "file": "metro-monitores-digitales-480.webp"
+   }
+  ]
+ },
+ "metro-branding-monitores": {
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "metro-branding-monitores-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "metro-branding-monitores-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "metro-branding-monitores-480.webp"
+   }
+  ]
+ },
+ "metro-arco-escaleras": {
+  "w": 888,
+  "h": 665,
+  "sizes": [
+   {
+    "w": 888,
+    "h": 665,
+    "file": "metro-arco-escaleras-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 359,
+    "file": "metro-arco-escaleras-480.webp"
+   }
+  ]
+ },
+ "metro-branding-escaleras": {
+  "w": 585,
+  "h": 781,
+  "sizes": [
+   {
+    "w": 585,
+    "h": 781,
+    "file": "metro-branding-escaleras-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 641,
+    "file": "metro-branding-escaleras-480.webp"
+   }
+  ]
+ },
+ "metro-escaleras-detalle": {
+  "w": 585,
+  "h": 781,
+  "sizes": [
+   {
+    "w": 585,
+    "h": 781,
+    "file": "metro-escaleras-detalle-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 641,
+    "file": "metro-escaleras-detalle-480.webp"
+   }
+  ]
+ },
+ "metro-branding-pared": {
+  "w": 975,
+  "h": 730,
+  "sizes": [
+   {
+    "w": 975,
+    "h": 730,
+    "file": "metro-branding-pared-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 674,
+    "file": "metro-branding-pared-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 359,
+    "file": "metro-branding-pared-480.webp"
+   }
+  ]
+ },
+ "metro-branding-columna": {
+  "w": 627,
+  "h": 836,
+  "sizes": [
+   {
+    "w": 627,
+    "h": 836,
+    "file": "metro-branding-columna-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 640,
+    "file": "metro-branding-columna-480.webp"
+   }
+  ]
+ },
+ "metro-exhibicion-especial": {
+  "w": 1043,
+  "h": 782,
+  "sizes": [
+   {
+    "w": 1043,
+    "h": 782,
+    "file": "metro-exhibicion-especial-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "metro-exhibicion-especial-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "metro-exhibicion-especial-480.webp"
+   }
+  ]
+ },
+ "metro-exhibicion-magnum": {
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "metro-exhibicion-magnum-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "metro-exhibicion-magnum-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "metro-exhibicion-magnum-480.webp"
+   }
+  ]
+ },
+ "metro-branding-tren": {
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "metro-branding-tren-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "metro-branding-tren-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "metro-branding-tren-480.webp"
+   }
+  ]
+ },
+ "cc-portal-exterior": {
+  "w": 1586,
+  "h": 893,
+  "sizes": [
+   {
+    "w": 1586,
+    "h": 893,
+    "file": "cc-portal-exterior-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 507,
+    "file": "cc-portal-exterior-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 270,
+    "file": "cc-portal-exterior-480.webp"
+   }
+  ]
+ },
+ "pantalla-jardin-panoramica": {
+  "w": 457,
+  "h": 247,
+  "sizes": [
+   {
+    "w": 457,
+    "h": 247,
+    "file": "pantalla-jardin-panoramica-1600.webp"
+   }
+  ]
+ },
+ "pantalla-jardin-led": {
+  "w": 472,
+  "h": 284,
+  "sizes": [
+   {
+    "w": 472,
+    "h": 284,
+    "file": "pantalla-jardin-led-1600.webp"
+   }
+  ]
+ },
+ "pantalla-jardin-curve": {
+  "w": 275,
+  "h": 349,
+  "sizes": [
+   {
+    "w": 275,
+    "h": 349,
+    "file": "pantalla-jardin-curve-1600.webp"
+   }
+  ]
+ },
+ "pantalla-bosque-patio": {
+  "w": 872,
+  "h": 853,
+  "sizes": [
+   {
+    "w": 872,
+    "h": 853,
+    "file": "pantalla-bosque-patio-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 470,
+    "file": "pantalla-bosque-patio-480.webp"
+   }
+  ]
+ },
+ "pantalla-bosque-led": {
+  "w": 725,
+  "h": 601,
+  "sizes": [
+   {
+    "w": 725,
+    "h": 601,
+    "file": "pantalla-bosque-led-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 398,
+    "file": "pantalla-bosque-led-480.webp"
+   }
+  ]
+ },
+ "pantalla-andes": {
+  "w": 386,
+  "h": 233,
+  "sizes": [
+   {
+    "w": 386,
+    "h": 233,
+    "file": "pantalla-andes-1600.webp"
+   }
+  ]
+ },
+ "pantalla-laguna-eventos": {
+  "w": 1153,
+  "h": 761,
+  "sizes": [
+   {
+    "w": 1153,
+    "h": 761,
+    "file": "pantalla-laguna-eventos-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 594,
+    "file": "pantalla-laguna-eventos-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 317,
+    "file": "pantalla-laguna-eventos-480.webp"
+   }
+  ]
+ },
+ "pantalla-laguna-patio": {
+  "w": 720,
+  "h": 581,
+  "sizes": [
+   {
+    "w": 720,
+    "h": 581,
+    "file": "pantalla-laguna-patio-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 387,
+    "file": "pantalla-laguna-patio-480.webp"
+   }
+  ]
+ },
+ "pantalla-dk-circuito": {
+  "w": 512,
+  "h": 293,
+  "sizes": [
+   {
+    "w": 512,
+    "h": 293,
+    "file": "pantalla-dk-circuito-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 275,
+    "file": "pantalla-dk-circuito-480.webp"
+   }
+  ]
+ },
+ "pantalla-dk-mall": {
+  "w": 772,
+  "h": 408,
+  "sizes": [
+   {
+    "w": 772,
+    "h": 408,
+    "file": "pantalla-dk-mall-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 254,
+    "file": "pantalla-dk-mall-480.webp"
+   }
+  ]
+ },
+ "ascensor-portal": {
+  "w": 325,
+  "h": 518,
+  "sizes": [
+   {
+    "w": 325,
+    "h": 518,
+    "file": "ascensor-portal-1600.webp"
+   }
+  ]
+ },
+ "ascensor-recreo": {
+  "w": 334,
+  "h": 511,
+  "sizes": [
+   {
+    "w": 334,
+    "h": 511,
+    "file": "ascensor-recreo-1600.webp"
+   }
+  ]
+ },
+ "ascensor-quicentro": {
+  "w": 292,
+  "h": 519,
+  "sizes": [
+   {
+    "w": 292,
+    "h": 519,
+    "file": "ascensor-quicentro-1600.webp"
+   }
+  ]
+ },
+ "ascensor-mallsur": {
+  "w": 375,
+  "h": 573,
+  "sizes": [
+   {
+    "w": 375,
+    "h": 573,
+    "file": "ascensor-mallsur-1600.webp"
+   }
+  ]
+ },
+ "arcos-hero": {
+  "w": 1600,
+  "h": 900,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "arcos-hero-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 506,
+    "file": "arcos-hero-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 270,
+    "file": "arcos-hero-480.webp"
+   }
+  ]
+ },
+ "arco-bosque-dia": {
+  "w": 1280,
+  "h": 642,
+  "sizes": [
+   {
+    "w": 1280,
+    "h": 642,
+    "file": "arco-bosque-dia-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 451,
+    "file": "arco-bosque-dia-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 241,
+    "file": "arco-bosque-dia-480.webp"
+   }
+  ]
+ },
+ "arco-bosque-noche": {
+  "w": 1280,
+  "h": 673,
+  "sizes": [
+   {
+    "w": 1280,
+    "h": 673,
+    "file": "arco-bosque-noche-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 473,
+    "file": "arco-bosque-noche-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 252,
+    "file": "arco-bosque-noche-480.webp"
+   }
+  ]
+ },
+ "arco-sanluis": {
+  "w": 1503,
+  "h": 1046,
+  "sizes": [
+   {
+    "w": 1503,
+    "h": 1046,
+    "file": "arco-sanluis-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 626,
+    "file": "arco-sanluis-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 334,
+    "file": "arco-sanluis-480.webp"
+   }
+  ]
+ },
+ "arco-cci": {
+  "w": 960,
+  "h": 719,
+  "sizes": [
+   {
+    "w": 960,
+    "h": 719,
+    "file": "arco-cci-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 674,
+    "file": "arco-cci-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "arco-cci-480.webp"
+   }
+  ]
+ },
+ "arco-portal": {
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "arco-portal-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "arco-portal-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "arco-portal-480.webp"
+   }
+  ]
+ },
+ "arco-quicentro-sur": {
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "arco-quicentro-sur-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "arco-quicentro-sur-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "arco-quicentro-sur-480.webp"
+   }
+  ]
+ },
+ "arco-recreo": {
+  "w": 960,
+  "h": 1280,
+  "sizes": [
+   {
+    "w": 960,
+    "h": 1280,
+    "file": "arco-recreo-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 1200,
+    "file": "arco-recreo-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 640,
+    "file": "arco-recreo-480.webp"
+   }
+  ]
+ },
+ "arco-mall-del-sol": {
+  "w": 960,
+  "h": 712,
+  "sizes": [
+   {
+    "w": 960,
+    "h": 712,
+    "file": "arco-mall-del-sol-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 668,
+    "file": "arco-mall-del-sol-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 356,
+    "file": "arco-mall-del-sol-480.webp"
+   }
+  ]
+ },
+ "arco-mall-del-sol-pileta": {
+  "w": 600,
+  "h": 451,
+  "sizes": [
+   {
+    "w": 600,
+    "h": 451,
+    "file": "arco-mall-del-sol-pileta-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 361,
+    "file": "arco-mall-del-sol-pileta-480.webp"
+   }
+  ]
+ },
+ "arco-city-mall": {
+  "w": 1600,
+  "h": 1200,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 1200,
+    "file": "arco-city-mall-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "arco-city-mall-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "arco-city-mall-480.webp"
+   }
+  ]
+ },
+ "activaciones-hero": {
+  "w": 2666,
+  "h": 1499,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "activaciones-hero-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 506,
+    "file": "activaciones-hero-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 270,
+    "file": "activaciones-hero-480.webp"
+   }
+  ]
+ },
+ "espacio-san-marino": {
+  "w": 1029,
+  "h": 629,
+  "sizes": [
+   {
+    "w": 1029,
+    "h": 629,
+    "file": "espacio-san-marino-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 550,
+    "file": "espacio-san-marino-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 293,
+    "file": "espacio-san-marino-480.webp"
+   }
+  ]
+ },
+ "espacio-quicentro-norte": {
+  "w": 1280,
+  "h": 960,
+  "sizes": [
+   {
+    "w": 1280,
+    "h": 960,
+    "file": "espacio-quicentro-norte-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "espacio-quicentro-norte-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "espacio-quicentro-norte-480.webp"
+   }
+  ]
+ },
+ "espacio-jardin": {
+  "w": 1121,
+  "h": 796,
+  "sizes": [
+   {
+    "w": 1121,
+    "h": 796,
+    "file": "espacio-jardin-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 639,
+    "file": "espacio-jardin-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 341,
+    "file": "espacio-jardin-480.webp"
+   }
+  ]
+ },
+ "espacio-cci": {
+  "w": 1461,
+  "h": 1077,
+  "sizes": [
+   {
+    "w": 1461,
+    "h": 1077,
+    "file": "espacio-cci-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 663,
+    "file": "espacio-cci-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 354,
+    "file": "espacio-cci-480.webp"
+   }
+  ]
+ },
+ "valla-movil-hero": {
+  "w": 1280,
+  "h": 720,
+  "sizes": [
+   {
+    "w": 1280,
+    "h": 720,
+    "file": "valla-movil-hero-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 506,
+    "file": "valla-movil-hero-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 270,
+    "file": "valla-movil-hero-480.webp"
+   }
+  ]
+ },
+ "valla-movil-kia": {
+  "w": 815,
+  "h": 611,
+  "sizes": [
+   {
+    "w": 815,
+    "h": 611,
+    "file": "valla-movil-kia-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "valla-movil-kia-480.webp"
+   }
+  ]
+ },
+ "btl-hero": {
+  "w": 1600,
+  "h": 940,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 940,
+    "file": "btl-hero-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 529,
+    "file": "btl-hero-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 282,
+    "file": "btl-hero-480.webp"
+   }
+  ]
+ },
+ "btl-promart": {
+  "w": 1200,
+  "h": 995,
+  "sizes": [
+   {
+    "w": 1200,
+    "h": 995,
+    "file": "btl-promart-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 746,
+    "file": "btl-promart-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 398,
+    "file": "btl-promart-480.webp"
+   }
+  ]
+ },
+ "btl-arco-inflable": {
+  "w": 1046,
+  "h": 707,
+  "sizes": [
+   {
+    "w": 1046,
+    "h": 707,
+    "file": "btl-arco-inflable-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 608,
+    "file": "btl-arco-inflable-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 324,
+    "file": "btl-arco-inflable-480.webp"
+   }
+  ]
+ },
+ "btl-bicibanners-calle": {
+  "w": 769,
+  "h": 576,
+  "sizes": [
+   {
+    "w": 769,
+    "h": 576,
+    "file": "btl-bicibanners-calle-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "btl-bicibanners-calle-480.webp"
+   }
+  ]
+ },
+ "btl-activacion-navidad": {
+  "w": 664,
+  "h": 498,
+  "sizes": [
+   {
+    "w": 664,
+    "h": 498,
+    "file": "btl-activacion-navidad-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "btl-activacion-navidad-480.webp"
+   }
+  ]
+ },
+ "btl-medicity": {
+  "w": 927,
+  "h": 344,
+  "sizes": [
+   {
+    "w": 927,
+    "h": 344,
+    "file": "btl-medicity-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 334,
+    "file": "btl-medicity-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 178,
+    "file": "btl-medicity-480.webp"
+   }
+  ]
+ },
+ "bicibanners-flota": {
+  "w": 1600,
+  "h": 805,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 805,
+    "file": "bicibanners-flota-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 453,
+    "file": "bicibanners-flota-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 242,
+    "file": "bicibanners-flota-480.webp"
+   }
+  ]
+ },
+ "bicibanners-mcdonalds": {
+  "w": 837,
+  "h": 613,
+  "sizes": [
+   {
+    "w": 837,
+    "h": 613,
+    "file": "bicibanners-mcdonalds-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 352,
+    "file": "bicibanners-mcdonalds-480.webp"
+   }
+  ]
+ },
+ "bicibanners-urbano": {
+  "w": 866,
+  "h": 537,
+  "sizes": [
+   {
+    "w": 866,
+    "h": 537,
+    "file": "bicibanners-urbano-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 298,
+    "file": "bicibanners-urbano-480.webp"
+   }
+  ]
+ },
+ "humanbanners-flota": {
+  "w": 1600,
+  "h": 787,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 787,
+    "file": "humanbanners-flota-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 443,
+    "file": "humanbanners-flota-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 236,
+    "file": "humanbanners-flota-480.webp"
+   }
+  ]
+ },
+ "humanbanners-parada": {
+  "w": 684,
+  "h": 513,
+  "sizes": [
+   {
+    "w": 684,
+    "h": 513,
+    "file": "humanbanners-parada-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "humanbanners-parada-480.webp"
+   }
+  ]
+ },
+ "humanbanners-avenida": {
+  "w": 698,
+  "h": 344,
+  "sizes": [
+   {
+    "w": 698,
+    "h": 344,
+    "file": "humanbanners-avenida-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 237,
+    "file": "humanbanners-avenida-480.webp"
+   }
+  ]
+ },
+ "humanbanners-vertical": {
+  "w": 405,
+  "h": 601,
+  "sizes": [
+   {
+    "w": 405,
+    "h": 601,
+    "file": "humanbanners-vertical-1600.webp"
+   }
+  ]
+ },
+ "humanbanners-luminosos-noche": {
+  "w": 604,
+  "h": 806,
+  "sizes": [
+   {
+    "w": 604,
+    "h": 806,
+    "file": "humanbanners-luminosos-noche-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 641,
+    "file": "humanbanners-luminosos-noche-480.webp"
+   }
+  ]
+ },
+ "humanbanners-luminosos-marathon": {
+  "w": 851,
+  "h": 590,
+  "sizes": [
+   {
+    "w": 851,
+    "h": 590,
+    "file": "humanbanners-luminosos-marathon-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 333,
+    "file": "humanbanners-luminosos-marathon-480.webp"
+   }
+  ]
+ },
+ "humanbanners-luminosos-scala": {
+  "w": 536,
+  "h": 728,
+  "sizes": [
+   {
+    "w": 536,
+    "h": 728,
+    "file": "humanbanners-luminosos-scala-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 652,
+    "file": "humanbanners-luminosos-scala-480.webp"
+   }
+  ]
+ },
+ "pasacalles-semaforo": {
+  "w": 1053,
+  "h": 595,
+  "sizes": [
+   {
+    "w": 1053,
+    "h": 595,
+    "file": "pasacalles-semaforo-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 509,
+    "file": "pasacalles-semaforo-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 271,
+    "file": "pasacalles-semaforo-480.webp"
+   }
+  ]
+ },
+ "pasacalles-marathon": {
+  "w": 840,
+  "h": 385,
+  "sizes": [
+   {
+    "w": 840,
+    "h": 385,
+    "file": "pasacalles-marathon-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 220,
+    "file": "pasacalles-marathon-480.webp"
+   }
+  ]
+ },
+ "pasacalles-doble-lado": {
+  "w": 672,
+  "h": 337,
+  "sizes": [
+   {
+    "w": 672,
+    "h": 337,
+    "file": "pasacalles-doble-lado-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 241,
+    "file": "pasacalles-doble-lado-480.webp"
+   }
+  ]
+ },
+ "pasacalles-avenida": {
+  "w": 674,
+  "h": 379,
+  "sizes": [
+   {
+    "w": 674,
+    "h": 379,
+    "file": "pasacalles-avenida-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 270,
+    "file": "pasacalles-avenida-480.webp"
+   }
+  ]
+ },
+ "zanqueros-arco-globos": {
+  "w": 1024,
+  "h": 768,
+  "sizes": [
+   {
+    "w": 1024,
+    "h": 768,
+    "file": "zanqueros-arco-globos-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "zanqueros-arco-globos-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "zanqueros-arco-globos-480.webp"
+   }
+  ]
+ },
+ "zanqueros-marathon": {
+  "w": 510,
+  "h": 680,
+  "sizes": [
+   {
+    "w": 510,
+    "h": 680,
+    "file": "zanqueros-marathon-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 640,
+    "file": "zanqueros-marathon-480.webp"
+   }
+  ]
+ },
+ "zanqueros-calle": {
+  "w": 1141,
+  "h": 525,
+  "sizes": [
+   {
+    "w": 1141,
+    "h": 525,
+    "file": "zanqueros-calle-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 414,
+    "file": "zanqueros-calle-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 221,
+    "file": "zanqueros-calle-480.webp"
+   }
+  ]
+ },
+ "promotores-toni": {
+  "w": 1138,
+  "h": 853,
+  "sizes": [
+   {
+    "w": 1138,
+    "h": 853,
+    "file": "promotores-toni-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "promotores-toni-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "promotores-toni-480.webp"
+   }
+  ]
+ },
+ "promotores-outlet": {
+  "w": 754,
+  "h": 1173,
+  "sizes": [
+   {
+    "w": 754,
+    "h": 1173,
+    "file": "promotores-outlet-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 747,
+    "file": "promotores-outlet-480.webp"
+   }
+  ]
+ },
+ "promotores-carrito": {
+  "w": 708,
+  "h": 531,
+  "sizes": [
+   {
+    "w": 708,
+    "h": 531,
+    "file": "promotores-carrito-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "promotores-carrito-480.webp"
+   }
+  ]
+ },
+ "promotores-deportes": {
+  "w": 473,
+  "h": 631,
+  "sizes": [
+   {
+    "w": 473,
+    "h": 631,
+    "file": "promotores-deportes-1600.webp"
+   }
+  ]
+ },
+ "stand-sherwin-williams": {
+  "w": 902,
+  "h": 677,
+  "sizes": [
+   {
+    "w": 902,
+    "h": 677,
+    "file": "stand-sherwin-williams-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 675,
+    "file": "stand-sherwin-williams-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "stand-sherwin-williams-480.webp"
+   }
+  ]
+ },
+ "stand-hunter": {
+  "w": 823,
+  "h": 617,
+  "sizes": [
+   {
+    "w": 823,
+    "h": 617,
+    "file": "stand-hunter-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "stand-hunter-480.webp"
+   }
+  ]
+ },
+ "stand-kinder": {
+  "w": 902,
+  "h": 461,
+  "sizes": [
+   {
+    "w": 902,
+    "h": 461,
+    "file": "stand-kinder-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 460,
+    "file": "stand-kinder-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 245,
+    "file": "stand-kinder-480.webp"
+   }
+  ]
+ },
+ "stand-medicity": {
+  "w": 863,
+  "h": 470,
+  "sizes": [
+   {
+    "w": 863,
+    "h": 470,
+    "file": "stand-medicity-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 261,
+    "file": "stand-medicity-480.webp"
+   }
+  ]
+ },
+ "stand-etafashion": {
+  "w": 614,
+  "h": 461,
+  "sizes": [
+   {
+    "w": 614,
+    "h": 461,
+    "file": "stand-etafashion-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "stand-etafashion-480.webp"
+   }
+  ]
+ },
+ "stand-kiosco": {
+  "w": 507,
+  "h": 677,
+  "sizes": [
+   {
+    "w": 507,
+    "h": 677,
+    "file": "stand-kiosco-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 641,
+    "file": "stand-kiosco-480.webp"
+   }
+  ]
+ },
+ "promocionales-1": {
+  "w": 607,
+  "h": 512,
+  "sizes": [
+   {
+    "w": 607,
+    "h": 512,
+    "file": "promocionales-1-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 405,
+    "file": "promocionales-1-480.webp"
+   }
+  ]
+ },
+ "promocionales-2": {
+  "w": 512,
+  "h": 483,
+  "sizes": [
+   {
+    "w": 512,
+    "h": 483,
+    "file": "promocionales-2-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 453,
+    "file": "promocionales-2-480.webp"
+   }
+  ]
+ },
+ "promocionales-3": {
+  "w": 519,
+  "h": 524,
+  "sizes": [
+   {
+    "w": 519,
+    "h": 524,
+    "file": "promocionales-3-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 485,
+    "file": "promocionales-3-480.webp"
+   }
+  ]
+ },
+ "produccion-marathon-led": {
+  "w": 909,
+  "h": 538,
+  "sizes": [
+   {
+    "w": 909,
+    "h": 538,
+    "file": "produccion-marathon-led-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 533,
+    "file": "produccion-marathon-led-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 284,
+    "file": "produccion-marathon-led-480.webp"
+   }
+  ]
+ },
+ "produccion-joazz": {
+  "w": 718,
+  "h": 538,
+  "sizes": [
+   {
+    "w": 718,
+    "h": 538,
+    "file": "produccion-joazz-1600.webp"
+   },
+   {
+    "w": 480,
+    "h": 360,
+    "file": "produccion-joazz-480.webp"
+   }
+  ]
+ },
+ "bg-velocidad": {
+  "w": 2673,
+  "h": 1499,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 897,
+    "file": "bg-velocidad-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 505,
+    "file": "bg-velocidad-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 269,
+    "file": "bg-velocidad-480.webp"
+   }
+  ]
+ },
+ "bg-autopista": {
+  "w": 1125,
+  "h": 633,
+  "sizes": [
+   {
+    "w": 1125,
+    "h": 633,
+    "file": "bg-autopista-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 506,
+    "file": "bg-autopista-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 270,
+    "file": "bg-autopista-480.webp"
+   }
+  ]
+ },
+ "bg-ciudad": {
+  "w": 2666,
+  "h": 1499,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "bg-ciudad-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 506,
+    "file": "bg-ciudad-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 270,
+    "file": "bg-ciudad-480.webp"
+   }
+  ]
+ },
+ "bg-avenida": {
+  "w": 2600,
+  "h": 1462,
+  "sizes": [
+   {
+    "w": 1600,
+    "h": 900,
+    "file": "bg-avenida-1600.webp"
+   },
+   {
+    "w": 900,
+    "h": 506,
+    "file": "bg-avenida-900.webp"
+   },
+   {
+    "w": 480,
+    "h": 270,
+    "file": "bg-avenida-480.webp"
+   }
+  ]
+ }
+}

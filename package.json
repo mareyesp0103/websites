@@ -1,13 +1,34 @@
 {
   "name": "sonic-publicidad-web",
   "private": true,
-  "version": "0.1.0",
-  "description": "Sitio web corporativo de Sonic Publicidad (OOH / DOOH Ecuador).",
+  "version": "1.0.0",
+  "description": "Sitio web corporativo de Sonic Publicidad — OOH, DOOH y activaciones de marca en Ecuador.",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
-    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "serve": "npx --yes serve out -p 4321 --no-clipboard",
+    "qa:a11y": "node scripts/qa/a11y.mjs",
+    "qa:links": "node scripts/qa/links.mjs",
+    "qa:flows": "node scripts/qa/interact.mjs",
+    "qa:shots": "node scripts/qa/shot.mjs",
+    "qa:media": "python3 scripts/check-media.py"
+  },
+  "dependencies": {
+    "framer-motion": "^13.2.0",
+    "lucide-react": "^0.548.0",
+    "next": "^16.3.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.13"
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "axe-core": "^4.13.0",
+    "playwright": "^1.63.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.0"
   }
 }
