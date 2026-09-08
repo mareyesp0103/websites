@@ -21,18 +21,38 @@ export const site = {
   sourceUpdatedAt: "2026-08-01",
 } as const;
 
+/**
+ * ÚNICO LUGAR DONDE VIVE EL TELÉFONO.
+ *
+ * Formato internacional, sólo dígitos: código de país + número sin el 0
+ * inicial. Ecuador es 593, así que el celular 098 453 4774 se escribe
+ * 593984534774. De aquí se derivan el enlace `tel:`, el de WhatsApp y el
+ * número que se muestra en pantalla: cambiarlo aquí lo cambia en todo el sitio.
+ *
+ * Debe ser una línea dada de alta en WhatsApp; si no, wa.me responde que el
+ * número no existe.
+ */
+const PHONE_E164 = "593984534774";
+
+/** 593984534774 → "098 453 4774" (formato nacional ecuatoriano). */
+function formatEcuadorPhone(e164: string): string {
+  const national = e164.startsWith("593") ? `0${e164.slice(3)}` : e164;
+  return national.length === 10
+    ? `${national.slice(0, 3)} ${national.slice(3, 6)} ${national.slice(6)}`
+    : national;
+}
+
 export const contact = {
   advisor: {
     name: "Nicole Núñez Congrains",
     role: "Ventas",
   },
-  phoneDisplay: "098 453 4774",
-  /** Formato internacional sin signos, para enlaces tel: y wa.me */
-  phoneE164: "593984534774",
-  phoneLink: "tel:+593984534774",
+  phoneE164: PHONE_E164,
+  phoneDisplay: formatEcuadorPhone(PHONE_E164),
+  phoneLink: `tel:+${PHONE_E164}`,
+  whatsappBase: `https://wa.me/${PHONE_E164}`,
   email: "ventasonicpublicidad@gmail.com",
   emailLink: "mailto:ventasonicpublicidad@gmail.com",
-  whatsappBase: "https://wa.me/593984534774",
   /**
    * Datos no confirmados en el material comercial. Se completan
    * y se activan (`enabled: true`) cuando el cliente los valide.
