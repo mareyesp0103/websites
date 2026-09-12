@@ -7,3 +7,6 @@ next-env.d.ts
 __pycache__/
 *.pyc
 .qa-shots/
+templates/*/node_modules/
+templates/*/.next/
+templates/*/out/

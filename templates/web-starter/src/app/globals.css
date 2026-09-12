@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
 /* ============================================================
-   SONIC PUBLICIDAD — DESIGN TOKENS
-   Colours are sampled from the official logotype:
-     #2086C8  contenedor azul del logo   -> brand
-     #2959A5  cuerpo del bombillo        -> deep
-     #9A908E / #504843  rosca del casquillo -> metal
+   TOKENS DE DISEÑO — plantilla
+
+   SUSTITUIR los valores de marca por los medidos del logotipo:
+     python3 palette.py logo.png          → colores reales
+     python3 contrast.py --find-fill "#…" → el relleno que cumple AA
+
+   Conservar la SEPARACIÓN de roles: `brand` es identidad (fondos, iconos,
+   bordes) y `brand-fill` es relleno con texto encima. Casi siempre el color
+   de marca reprueba 4.5:1 con blanco y hace falta un tono más oscuro.
    ============================================================ */
 @theme {
   /* -- superficies ------------------------------------------------ */
@@ -24,15 +28,15 @@
   --color-ink-mute: #8698b4;
 
   /* -- marca ------------------------------------------------------ */
-  --color-brand: #2086c8;         /* azul de identidad (fondos amplios, iconos, bordes) */
-  --color-brand-fill: #1d79b5;    /* relleno interactivo con texto blanco — 4.7:1 */
-  --color-brand-fill-hover: #1b6fa6;
-  --color-brand-bright: #45a3de;  /* texto y enlaces sobre fondo oscuro — 5.6:1+ */
-  --color-brand-soft: #7cc4ee;
-  --color-deep: #2959a5;
-  --color-deep-dark: #1b3a6b;
-  --color-spark: #5fd8ff;
-  --color-metal: #9a908e;
+  --color-brand: #2563eb;         /* PLACEHOLDER · identidad: fondos amplios, iconos, bordes */
+  --color-brand-fill: #1d4ed8;    /* PLACEHOLDER · relleno interactivo con texto encima; verificar 4.5:1 */
+  --color-brand-fill-hover: #1e40af;
+  --color-brand-bright: #60a5fa;  /* texto y enlaces sobre fondo oscuro — 5.6:1+ */
+  --color-brand-soft: #93c5fd;
+  --color-deep: #1e3a8a;
+  --color-deep-dark: #172554;
+  --color-spark: #38bdf8;
+  --color-metal: #94a3b8;
 
   /* -- semánticos ------------------------------------------------- */
   --color-danger: #fb7185;
@@ -215,8 +219,9 @@
     pointer-events: none;
   }
 
-  /* Relleno oscurecido a propósito: blanco sobre #1d79b5 alcanza 4.7:1 (AA),
-     mientras el azul de identidad #2086c8 sólo llega a 3.9:1. */
+  /* El relleno se oscurece a propósito respecto al color de identidad:
+     casi siempre el color de marca no llega a 4.5:1 con texto blanco.
+     Verificar con contrast.py --find-fill antes de fijar el valor. */
   .btn-primary {
     background: var(--color-brand-fill);
     color: #fff;
@@ -403,7 +408,7 @@
       var(--color-surface-2) 70%
     );
     background-size: 220% 100%;
-    animation: sonic-shimmer 1.4s var(--ease-in-out-soft) infinite;
+    animation: ui-shimmer 1.4s var(--ease-in-out-soft) infinite;
     border-radius: var(--radius-sm);
   }
 
@@ -435,43 +440,27 @@
   background-size: 64px 64px;
 }
 
-/* ------------------------------------------------------------
-   Velo de apertura
-   Se pinta con el HTML, antes de que React hidrate, y desaparece
-   en cuanto la secuencia de marca toma el control (o de inmediato
-   si ya se vio en esta sesión).
-   ------------------------------------------------------------ */
-#brand-veil {
-  position: fixed;
-  inset: 0;
-  background: var(--color-abyss);
-  z-index: var(--z-intro);
-}
-html[data-intro-seen="1"] #brand-veil {
-  display: none;
-}
-
 /* ============================================================
    ANIMACIONES
    ============================================================ */
-@keyframes sonic-shimmer {
+@keyframes ui-shimmer {
   from { background-position: 200% 0; }
   to { background-position: -40% 0; }
 }
 
-@keyframes sonic-streak {
+@keyframes ui-streak {
   0% { transform: translateX(-110%); opacity: 0; }
   12% { opacity: 1; }
   88% { opacity: 1; }
   100% { transform: translateX(320%); opacity: 0; }
 }
 
-@keyframes sonic-pulse {
+@keyframes ui-pulse {
   0%, 100% { opacity: 0.55; transform: scale(1); }
   50% { opacity: 1; transform: scale(1.06); }
 }
 
-@keyframes sonic-scroll-hint {
+@keyframes ui-scroll-hint {
   0% { transform: translateY(0); opacity: 0; }
   35% { opacity: 1; }
   100% { transform: translateY(11px); opacity: 0; }
