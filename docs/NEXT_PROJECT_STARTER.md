@@ -95,16 +95,38 @@ El método sí se documenta en
 
 ---
 
-## Dónde debería vivir cada aprendizaje
+## Dónde vive cada aprendizaje
 
-| Destino | Contenido | Por qué ahí |
+Todo lo de esta tabla **ya existe** en el repositorio, salvo la primera fila.
+
+| Destino | Contenido | Estado |
 |---|---|---|
-| `~/.claude/CLAUDE.md` | Preferencias de trabajo del usuario (abajo) y las reglas A3, C1, C2, E1, G1, G2 | Son transversales a cualquier proyecto, no sólo web |
-| **Skill reutilizable** `web-project-quality` | El checklist completo + los scripts `qa/*` + los antipatrones | Es un procedimiento con herramientas, invocable bajo demanda. Encaja como skill, no como contexto permanente |
-| **Skill reutilizable** `brand-asset-extraction` | Fases 0 y 2: extracción de PDF, trazado de logotipo, extracción de logotipos sobre foto, muestreo de paleta | Conocimiento especializado con scripts, que sólo aplica al arrancar un proyecto con material de marca |
-| **Subagente** `a11y-auditor` | Ejecutar axe-core, clasificar por severidad, proponer correcciones, re-verificar | Tarea acotada, verificable y repetitiva, con criterio de éxito objetivo (cero violaciones). Buen candidato porque su salida es una lista, no una decisión de diseño |
-| **Plantilla de proyecto** | `globals.css`, `ui/*`, `lib/*`, `scripts/`, workflow, `tsconfig`, `next.config` | Es código que se copia, no conocimiento que se lee |
-| **CLAUDE.md del cliente** | Paleta, tipografías, catálogo, reglas de veracidad de su contenido, estado de sus interruptores comerciales, pendientes legales | Específico e irrelevante fuera de ese proyecto |
+| `~/.claude/CLAUDE.md` | Preferencias de trabajo y las reglas transversales | Copiar desde [`GLOBAL_CLAUDE.md`](./GLOBAL_CLAUDE.md) a tu máquina: el contenedor donde se generó no persiste |
+| Skill `brand-asset-extraction` | Fases 0 y 2, con siete scripts verificados | `.claude/skills/brand-asset-extraction/` |
+| Skill `web-project-quality` | Checklist, verificadores y antipatrones | `.claude/skills/web-project-quality/` |
+| Subagente `a11y-auditor` | El bucle auditar→corregir→re-auditar hasta cero | `.claude/agents/a11y-auditor.md` |
+| Plantilla | Primitivas, tokens, QA y workflow de preview | `templates/web-starter/` |
+| CLAUDE.md del cliente | Paleta, catálogo, interruptores comerciales, pendientes legales | Específico de cada proyecto |
+
+### Qué hace el subagente y qué no
+
+Su valor no es saber de accesibilidad —eso está en el skill— sino **iterar sin
+gastar el contexto de quien lo invoca**, con un criterio de parada objetivo.
+
+Corrige la clase mecánica: `id` inválidos en atributos ARIA, contenido fuera de
+landmarks, controles sin nombre accesible, `alt` ausentes.
+
+Escala la clase de criterio: contraste (el arreglo obvio puede romper la
+identidad de marca), jerarquía de encabezados (puede indicar que la página está
+mal estructurada), orden de foco.
+
+Tiene prohibido silenciar la herramienta —`aria-hidden`, quitar indicadores de
+foco, desactivar reglas—. Un informe en verde obtenido así es peor que el
+informe en rojo.
+
+Contra los cuatro hallazgos reales de este proyecto: habría resuelto dos por
+completo, uno a medias y habría escalado el de contraste, que es exactamente el
+que necesitaba rediseñar el sistema de tokens.
 
 ### Un subagente que **no** conviene
 
