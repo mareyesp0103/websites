@@ -10,9 +10,11 @@ const launchOptions = CHROMIUM ? { executablePath: CHROMIUM } : {};
 
 const axe = fs.readFileSync(createRequire(import.meta.url).resolve('axe-core/axe.min.js'), 'utf8');
 
-const urls = ['/','/soluciones/','/soluciones/branding-de-espacios/',
-  '/soluciones/branding-de-espacios/arcos-en-centros-comerciales/',
-  '/cobertura/','/proyectos/','/nosotros/','/cotizar/','/contacto/','/privacidad/','/no-existe/'];
+// Rutas a auditar. Se pasan por entorno para que el verificador no quede
+// atado a un proyecto concreto: ROUTES="/,/carta/,/no-existe/".
+const urls = (process.env.ROUTES ?? '/')
+  .split(',').map(r => r.trim()).filter(Boolean);
+
 const b = await chromium.launch(launchOptions);
 let total=0;
 for (const [w,h,tag] of [[1440,900,'desk'],[390,844,'mob']]) {
@@ -20,8 +22,7 @@ for (const [w,h,tag] of [[1440,900,'desk'],[390,844,'mob']]) {
   for (const u of urls) {
     const p = await ctx.newPage();
     await p.goto(BASE+u,{waitUntil:'domcontentloaded'});
-    await p.evaluate(()=>{try{sessionStorage.setItem('sonic:intro-seen','1')}catch{}});
-    await p.reload({waitUntil:'networkidle'});
+    await p.waitForLoadState('networkidle');
     await p.evaluate(async()=>{const s=innerHeight*0.9;for(let y=0;y<document.body.scrollHeight;y+=s){scrollTo(0,y);await new Promise(r=>setTimeout(r,60));}scrollTo(0,0);});
     await p.waitForTimeout(500);
     await p.addScriptTag({content:axe});

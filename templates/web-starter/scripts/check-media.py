@@ -3,7 +3,7 @@
 
 - Toda variante declarada en `src/data/media.json` existe en `public/media`.
 - Todo slug de imagen referenciado por el código existe en el manifiesto.
-- Todo logotipo de cliente declarado existe en disco.
+- Todo archivo del directorio de marca referenciado por el código existe.
 """
 import json, re, pathlib, sys
 
@@ -28,14 +28,18 @@ for f in list((root / "src").rglob("*.ts")) + list((root / "src").rglob("*.tsx")
         refs.add(m.group(1))
 
 unknown = sorted(r for r in refs if r not in manifest)
-clients = re.findall(r'file: "([^"]+)"', (root / "src/data/clients.ts").read_text())
-missing_logos = [c for c in clients if not (root / "public/brand/clients" / c).exists()]
 orphans = sorted(k for k in manifest if k not in refs)
+
+# Assets de marca escritos a mano con asset("/brand/…"): comprobar que existen.
+brand_refs: set[str] = set()
+for f in list((root / "src").rglob("*.ts")) + list((root / "src").rglob("*.tsx")):
+    brand_refs.update(re.findall(r'asset\(\s*"(/brand/[^"]+)"', f.read_text()))
+missing_brand = sorted(b for b in brand_refs if not (root / "public" / b.lstrip("/")).exists())
 
 print(f"variantes en manifiesto : {sum(len(e['sizes']) for e in manifest.values())}")
 print(f"faltantes en disco      : {missing or 'ninguna'}")
 print(f"slugs referenciados     : {len(refs)}")
 print(f"slugs desconocidos      : {unknown or 'ninguno'}")
-print(f"logos de clientes       : {len(clients)} · faltantes: {missing_logos or 'ninguno'}")
+print(f"assets de marca         : {len(brand_refs)} · faltantes: {missing_brand or 'ninguno'}")
 print(f"slugs sin usar          : {orphans or 'ninguno'}")
-sys.exit(1 if (missing or unknown or missing_logos) else 0)
+sys.exit(1 if (missing or unknown or missing_brand) else 0)
