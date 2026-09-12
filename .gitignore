@@ -10,3 +10,7 @@ __pycache__/
 templates/*/node_modules/
 templates/*/.next/
 templates/*/out/
+
+# Extracción de material de cliente: se archiva lo necesario dentro de cada
+# proyecto (p. ej. sites/lacafebreria/fuente/) y los recortes se regeneran.
+build/
