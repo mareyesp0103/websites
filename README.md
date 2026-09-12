@@ -32,6 +32,21 @@ normales.
 
 ---
 
+## Documentación
+
+En [`docs/`](./docs) queda el conocimiento extraído del proyecto:
+
+| Archivo | Para qué |
+|---|---|
+| [PROJECT_RETROSPECTIVE](./docs/PROJECT_RETROSPECTIVE.md) | Qué pasó, qué costó, qué se descartó y qué queda pendiente |
+| [REUSABLE_LEARNINGS](./docs/REUSABLE_LEARNINGS.md) | Reglas transferibles a cualquier sitio, con sus excepciones |
+| [DESIGN_DECISIONS](./docs/DESIGN_DECISIONS.md) | Decisiones de UX/UI y su razón |
+| [TECHNICAL_DECISIONS](./docs/TECHNICAL_DECISIONS.md) | Stack, arquitectura, assets y despliegue |
+| [QUALITY_CHECKLIST](./docs/QUALITY_CHECKLIST.md) | Revisión previa a entrega |
+| [NEXT_PROJECT_STARTER](./docs/NEXT_PROJECT_STARTER.md) | Proceso y piezas a reutilizar |
+
+---
+
 ## Contenido y veracidad
 
 **Todo el contenido proviene del catálogo comercial oficial** (*Catálogo de
